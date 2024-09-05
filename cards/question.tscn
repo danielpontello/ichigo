@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://diypy32mnw1u4"]
 
-[ext_resource type="Script" path="res://question.gd" id="1_5h27w"]
+[ext_resource type="Script" path="res://cards/question.gd" id="1_5h27w"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_ey6pa"]
 font_size = 36
@@ -52,7 +52,6 @@ vertical_alignment = 1
 
 [node name="Translation" type="Label" parent="CenterContainer/VBoxContainer"]
 layout_mode = 2
-text = "おはよう"
 label_settings = SubResource("LabelSettings_ey6pa")
 horizontal_alignment = 1
 vertical_alignment = 1
